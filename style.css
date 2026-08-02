@@ -1,15 +1,6 @@
 body {
   margin: 0;
-  min-height: 100vh;
-  
-  background: linear-gradient(#13002D, #000017);
-  font-family: Arial, sans-serif;
-  background: linear-gradient(90deg, #00F747, #0070FF);
-
--webclip-background-clip: text;
-background-clip: text;
-
-color: transparent;
+  min-height: 100vh
 }
 .hero {
   display: flex;
@@ -28,6 +19,15 @@ color: transparent;
   text-align: center;
   font-size: 50px;
   color: white;
+
+  background: linear-gradient(#13002D, #000017);
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #00F747, #0070FF);
+
+ -webkit-background-clip: text;
+background-clip: text;
+
+color: transparent;
 }
 .subtitleSlogan {
   text-align: center;
