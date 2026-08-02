@@ -5,4 +5,10 @@ body {
   background: linear-gradient(
     #13002D,
     #000017
-  )
+  );
+}
+.Title {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
