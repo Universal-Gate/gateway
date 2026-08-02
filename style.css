@@ -1,7 +1,11 @@
 body {
   margin: 0;
-  min-height: 100vh
+  min-height: 100vh;
+
+  background: linear-gradient(#13002D, #000017);
+  font-family: Arial, sans-serif;
 }
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -14,23 +18,25 @@ body {
   width: 120px;
   height: 120px;
 }
-  
+
 .title {
   text-align: center;
   font-size: 50px;
-  color: white;
 
-  background: linear-gradient(#13002D, #000017);
-  font-family: Arial, sans-serif;
-  background: linear-gradient(90deg, #00F747, #0070FF);
+  background: linear-gradient(
+    90deg,
+    #00F747,
+    #0070FF
+  );
 
- -webkit-background-clip: text;
-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
 
-color: transparent;
+  color: transparent;
 }
+
 .subtitleSlogan {
   text-align: center;
-  font-size: 10px;
+  font-size: 20px;
   color: white;
 }
