@@ -7,7 +7,23 @@ body {
     #000017
   );
 }
-.Title {
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  
+.title {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.subtitleSlogan {
   text-align: center;
   font-size: 50px;
   color: white;
